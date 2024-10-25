@@ -1,0 +1,22 @@
+print ("hello adventures")
+print ("welcome to westwood shire taven")
+name = input ("dear traveler what is your name,")
+
+if name == "alesha" or name == "smudge":
+   alesha = input("that name rings a bell")
+
+answer = input( ( name + ",thx you do you want a drink"))
+
+if answer=="no":
+    print (" ah what a shame" )
+    exit ("you travel along your day nornamlly")
+else:
+    print (" no troubles we well get that " +name )
+    
+print (" here is your ale ")
+
+print ( name + ",you feel very dizzy now ")
+
+print ( " you have fainted now !!! ")
+
+print (" your ,finally, awake")
